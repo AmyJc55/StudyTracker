@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horario y Notas</title>
+  <link rel="stylesheet" href="micss.css">
+</head>
+<body>
+  <header id="main-header">
+    <div id="header-content">
+      <h1>PLAN SEMANAL </h1>
+      <button id="change-image">Cambiar Imagen</button>
+    </div>
+  </header>
+  
+  <main>
+    <section id="horario">
+      <h2>Horario Semanal</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Hora/Día</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sábado</th>
+            <th>Domingo</th>
+          </tr>
+        </thead>
+        <tbody id="schedule-body">
+          <!-- Se llenará dinámicamente con JavaScript -->
+        </tbody>
+      </table>
+      <button id="add-activity">Agregar Actividad</button>
+    </section>
+    
+    <section id="notas">
+      <h2>Notas/Tareas</h2>
+      <div id="notas-container">
+        <!-- Notas dinámicas -->
+      </div>
+      <button id="add-note">Agregar Nota</button>
+    </section>
+  </main>
+
+  <script src="funcionalidades.js"></script>
+</body>
+</html>

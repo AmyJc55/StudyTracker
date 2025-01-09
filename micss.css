@@ -1,0 +1,117 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    color: rgb(164, 205, 240);
+  }
+  
+  
+  header {
+    background-image: url('default.jpg'); /* Imagen de fondo por defecto */
+    background-size: cover;
+    background-position: center;
+    color: rgb(224, 142, 142); /* Color del texto */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  header button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: rgba(219, 205, 205, 0.6); /* Fondo semitransparente */
+  color: rgba(58, 183, 202, 0.815);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transición suave */
+}
+  
+  header button:hover {
+  background-color: rgba(204, 230, 244, 0.8);
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el cursor */
+}
+  
+  /* Horario */
+  #horario {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px; /* Ancho máximo para pantallas grandes */
+    background:rgb(213, 231, 229);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: white; /* Asegura buen contraste en el texto */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #030202;
+    color: #030202;
+  }
+  
+  table th {
+    background-color: #b9d0e8;
+    color: rgb(2, 1, 1);
+  }
+  
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4c94e1e2;
+    color: rgb(203, 226, 231);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  header button:hover {
+    background-color: rgba(204, 230, 244, 0.8);
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el cursor */
+  }
+  
+  /* Notas */
+  #notas {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background: rgb(174, 230, 233);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #notas-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .nota {
+    flex: 1 1 calc(33% - 10px);
+    background: #99c0ee;
+    color: rgb(22, 12, 12);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transiciones suaves */
+  }
+  
+  .nota.completed {
+    background: #e1a2d5;
+  }
+  
